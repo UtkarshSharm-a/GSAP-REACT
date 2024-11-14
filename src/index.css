@@ -1,0 +1,28 @@
+* {
+ margin: 0;
+ padding: 0;
+box-sizing: border-box;
+}
+
+html,body {
+height:100%;
+width:100%;
+}
+main{
+  height: 100vh;
+  width: 100%;
+  background: black;
+  display: flex;
+align-items: center;
+justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+button{
+padding: 10px 20px ;
+}
